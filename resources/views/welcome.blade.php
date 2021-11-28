@@ -65,7 +65,8 @@
     <table class="default" style="text-align: center;">
       <tr>
           <td class="separation">
-              Curso basico de arduino (camvioaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
+              Curso basico de arduino
+              QUE ONDAS RULAS COMO ANDAS 
               <iframe width="220" height="120" src="https://www.youtube.com/embed/eBVvD85Ml2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <p>Curso de 71 capitulos....</p>
             </td>
