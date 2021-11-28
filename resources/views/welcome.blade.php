@@ -1,100 +1,140 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Proyecto 7B/estilos.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>UTTv</title>
+</head>
+<body id="fondo">
+    
+    <header id="base">
+        <div class="letf_area">
+          <div class="splash">
+            <img src="./imagenes/Logo.png" alt="" id="Logo1" class="fade-in">
+          </div>
+          <div class="container" id="menu">
+            <div class="row g-2">
+               <center> 
+                <div class="col-12" id="cubo">
+                    <center><img src="./imagenes/Logo.png" id="logo" alt="logo"></center>
                 </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+            </center>
+            </div>
+            <div class="row g-2">
+                <div class="col-12">
+                   <center><h3 id="categorias">Categorias</h3></center>
                 </div>
             </div>
+            <p></p>
+            <div class="row g-2">
+                <div class="col-12">
+                    <button type="button" id="boton" class="btn">Mecatronica</button>
+                </div>
+            </div>
+            <p></p>
+            <div class="row g-2">
+                <div class="col-12">
+                    <button type="button" id="boton" class="btn">Tics</button>
+                </div>
+            </div>
+            <p></p>
+            <div class="row">
+                <div class="col-12">
+                   <div class="wrapper">
+                       <div class="button">
+                           <div class="icon"><i class="fa fa-user-plus fa-2x"></i></div>
+                           <span>Iniciar Sesion</span>
+                       </div>
+                   </div>
+                </div>
+            </div>
+          </div>
+          <div class="container" id="busqueda" style="text-align: center;">
+            <input type="text" id="buscar" placeholder="Buscar...">
+            <button class="btn" type="submit">
+                <i class="fa fa-search fa-2x" id="prueba"></i>
+            </button>
+           
+            <p style="text-align: center;" class="videossss">Menu principal</p>
+ <div class="videossss">
+    <table class="default" style="text-align: center;">
+      <tr>
+          <td class="separation">
+              Curso basico de arduino
+              <iframe width="220" height="120" src="https://www.youtube.com/embed/eBVvD85Ml2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p>Curso de 71 capitulos....</p>
+            </td>
+          <td class="separation">
+              Curso basico de  PLC
+              <iframe width="220" height="120" src="https://www.youtube.com/embed/euMtargFSGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p>Curso de 24 capitulos....</p>
+            </td>
+          
+          <td class="separation"> 
+              Curso basico de Electricidad y Magnetismo
+              <iframe width="220" height="120" src="https://www.youtube.com/embed/cFaf1_P2Y8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p>Curso de 87 capitulos....</p>
+            </td>
+            <td class="separation"> 
+                Curso basico de Electricidad y Magnetismo
+                <iframe width="220" height="120" src="https://www.youtube.com/embed/cFaf1_P2Y8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Curso de 87 capitulos....</p>
+              </td>
+      </tr>
+      <tr>
+        <td>
+          Curso de Sensores y Actuadores
+          <iframe width="220" height="120" src="https://www.youtube.com/embed/uup3U0aqq6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p>Curso de 1 capitulo....</p>
+        </td>
+        <td>
+          Curso de Sistemas Mecatronicos
+          <iframe width="220" height="120" src="https://www.youtube.com/embed/bxcg8eVYRz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p>Curso de 6 capitulos....</p>
+        </td>
+        <td>
+          Curso basico de Robotica
+          <iframe width="220" height="120" src="https://www.youtube.com/embed/-wED6SbZnY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p>Curso de 4 capitulos....</p>
+        </td>
+        <td>
+            Curso basico de Robotica
+            <iframe width="220" height="120" src="https://www.youtube.com/embed/-wED6SbZnY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Curso de 4 capitulos....</p>
+          </td>
+      </tr>
+    </table>    
+  </div>
+  
+ 
+  
+
+  <div class="videossss">
+    <table class="default" style="text-align: center;">
+      <tr>
+          <td class="separation">
+            <img src="./imagenes/facebooklogo.png" width="90" height="90" id="redes" class="fade-in">
+            </td>
+          <td class="separation">
+            <img src="./imagenes/instragramlogo.png.opdownload" width="100" height="100" id="redes" class="fade-in">
+            </td>
+          <td class="separation"> 
+            <img src="./imagenes/logotwiter.png.opdownload" width="100" height="100" id="redes" class="fade-in">
+            </td>
+      </tr>
+    </table>    
+  </div>
+          </div>
         </div>
-    </body>
+    </header>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./animaciones.js"></script>
+</body>
 </html>
