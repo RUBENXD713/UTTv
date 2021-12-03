@@ -245,13 +245,13 @@
     <header id="base">
         <div class="letf_area">
           <div class="splash">
-            <img src="descargar.png" alt="" id="Logo1" class="fade-in">
+            <img src="Logo.png" alt="" id="Logo1" class="fade-in">
           </div>
           <div class="container" id="menu">
             <div class="row g-2">
                <center> 
                 <div class="col-12" id="cubo">
-                    <center><img src="./imagenes/Logo.png" id="logo" alt="logo"></center>
+                    <center><img src="Logo.png" id="logo" alt="logo"></center>
                 </div>
             </center>
             </div>
@@ -348,13 +348,13 @@
     <table class="default" style="text-align: center;">
       <tr>
           <td class="separation">
-            <img src="./imagenes/facebooklogo.png" width="90" height="90" id="redes" class="fade-in">
+            <img src="facebook.png" width="90" height="90" id="redes" class="fade-in">
             </td>
           <td class="separation">
-            <img src="./imagenes/instragramlogo.png.opdownload" width="100" height="100" id="redes" class="fade-in">
+            <img src="instagram.png" width="100" height="100" id="redes" class="fade-in">
             </td>
           <td class="separation"> 
-            <img src="./imagenes/logotwiter.png.opdownload" width="100" height="100" id="redes" class="fade-in">
+            <img src="twiter.png" width="100" height="100" id="redes" class="fade-in">
             </td>
       </tr>
     </table>    
