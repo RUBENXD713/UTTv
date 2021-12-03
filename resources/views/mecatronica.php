@@ -171,6 +171,7 @@
     border-color: #707070;
     padding: 12px;
 }
+/*
 .splash{
     position: fixed;
     top: 0;
@@ -191,16 +192,17 @@
     z-index: -10;
     transition: all 0.5s;
 }
-
+/*
 @keyframes fadeIn{
     to{
         opacity: 1;
     }
-}
+}*/
+/*
 .fade-in{
     opacity: 0;
     animation: fadeIn 1s ease-in forwards;
-}
+}*/
 #prueba{
     color: #fff;
 }
@@ -244,14 +246,13 @@
     
     <header id="base">
         <div class="letf_area">
-          <div class="splash">
-            <img src="Logo.png" alt="" id="Logo1" class="fade-in">
-          </div>
           <div class="container" id="menu">
             <div class="row g-2">
                <center> 
                 <div class="col-12" id="cubo">
+                <a style="text-decoration:none" href="welcome.blade.php">
                     <center><img src="Logo.png" id="logo" alt="logo"></center>
+                </a>
                 </div>
             </center>
             </div>
@@ -269,7 +270,9 @@
             <p></p>
             <div class="row g-2">
                 <div class="col-12">
+                <a style="text-decoration:none" href="tics.php">
                     <button type="button" id="boton" class="btn">Tics</button>
+                </a>
                 </div>
             </div>
             <p></p>
@@ -291,6 +294,55 @@
             </button>
            
             <p style="text-align: center;" class="videossss">MECATRONICA</p>
+            <div class="videossss">
+    <table class="default" style="text-align: center;">
+      <tr>
+          <td class="separation">
+              Curso basico de arduino
+              <iframe width="220" height="120" src="https://www.youtube.com/embed/eBVvD85Ml2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p>Curso de 71 capitulos....</p>
+            </td>
+          <td class="separation">
+              Curso basico de  PLC
+              <iframe width="220" height="120" src="https://www.youtube.com/embed/euMtargFSGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p>Curso de 24 capitulos....</p>
+            </td>
+          
+          <td class="separation"> 
+              Curso basico de Electricidad y Magnetismo
+              <iframe width="220" height="120" src="https://www.youtube.com/embed/cFaf1_P2Y8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p>Curso de 87 capitulos....</p>
+            </td>
+            <td class="separation"> 
+                Curso basico de Electricidad y Magnetismo
+                <iframe width="220" height="120" src="https://www.youtube.com/embed/cFaf1_P2Y8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Curso de 87 capitulos....</p>
+              </td>
+      </tr>
+      <tr>
+        <td>
+          Curso de Sensores y Actuadores
+          <iframe width="220" height="120" src="https://www.youtube.com/embed/uup3U0aqq6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p>Curso de 1 capitulo....</p>
+        </td>
+        <td>
+          Curso de Sistemas Mecatronicos
+          <iframe width="220" height="120" src="https://www.youtube.com/embed/bxcg8eVYRz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p>Curso de 6 capitulos....</p>
+        </td>
+        <td>
+          Curso basico de Robotica
+          <iframe width="220" height="120" src="https://www.youtube.com/embed/-wED6SbZnY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p>Curso de 4 capitulos....</p>
+        </td>
+        <td>
+            Curso basico de Robotica
+            <iframe width="220" height="120" src="https://www.youtube.com/embed/-wED6SbZnY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Curso de 4 capitulos....</p>
+          </td>
+      </tr>
+    </table>    
+  </div>
 
   <div class="videossss">
     <table class="default" style="text-align: center;">
@@ -312,7 +364,7 @@
     </header>
 
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="animaciones.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="animaciones.js"></script> -->
 </body>
 </html>
