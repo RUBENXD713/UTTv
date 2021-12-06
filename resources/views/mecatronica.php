@@ -6,240 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="../Proyecto 7B/estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
-    <style>
-#menu{
-    background-color: #e4cf4b;
-    position: fixed;
-    height: 100%;
-    width: 230px;
-    float: left;
-    align-items: center;
-
-}
-#categorias{
-    color: #ffff;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#boton{
-    display: block;
-    height: 50px;
-    width: 200px;
-    padding-top: 5px;
-    outline: none;
-    border: 1px solid rgb(118, 103, 11);
-    background-color: #404040;
-    border-radius: 6px;
-    color: #fff;
-    cursor: pointer;
-    transition: all .25s;
-    z-index: 1;
-    position: relative;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#boton::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 0;
-    left: 0;
-    bottom: 0;
-    background-image: linear-gradient(to right, rgb(118, 103, 11), rgb(118, 103, 11));
-    transition: all .25s;
-    z-index: -1;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#boton:hover{
-    border-radius: 1px solid transparent;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#boton:hover::before{
-    height: 100%;
-}
-.wrapper .button{
-    display: inline-block;
-    height: 75px;
-    width: 73px;
-    margin: 0 5px;
-    overflow: hidden;
-    background: #26193a;
-    border-radius: 50px;
-    cursor: pointer;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
-    transition: all 0.2s ease-out;
-}
-.wrapper .button:hover{
-    width: 200px;
-}
-.wrapper .button .icon{
-    display: inline-block;
-    height: 60px;
-    width: 60px;
-    text-align: center;
-    border-radius: 50px;
-    box-sizing: border-box;
-    line-height: 60px;
-}
-.wrapper .button .icon i{
-    font-size: 30px;
-    line-height: 60px;
-    color: #fff;
-    justify-content: center;
-    padding-left: 17px;
-    padding-top: 5px;
-
-}
-.wrapper .button span{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 60px;
-    margin-left: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
-
-}
-/* #UserI{
-    height: 75px;
-    width: 73px;
-    border-radius: 80px;
-    padding-right: 10px;
-    padding-left: 20px;
-    border: #26193A;
-    background-color: #26193A;
-    top: 0;
-    left: 0;
-}
-#UserI:hover{
-    width: 200px;
-    padding-top: 4px;
-    transition: all .25s;
-    top: 0;
-    left: 0;
-}
-#ImaUser{
-    color: #fff;
-    padding-top: 15px;
-
-} */
-#Escrito{
-    visibility: hidden;
-}
-#logo{
-    height: 91px;
-    width: 91px;
-    border:#ffff;
-    border-color: aqua;
-}
-#Logo1{
-    height: 398px;
-    width: 398px;
-    display: block;
-    margin: auto;
-    margin-top: 150px;
-
-}
-#fondo{
-    background-color: #404040;
-}
-#fondosl{
-    background-color: #404040;
-}
-#cuadro{
-    background-color: #ffff;
-}
-#cubo{
-    padding: 10px;
-    /*padding-right: 10px;
-    padding-left: 72px;*/
-    top: 0;
-    left: 0;
-    display: block;
-}
-#busqueda{
-    padding-top: 35px;
-    padding-left: 180px;
-        
-}
-#buscar{
-    height: 43px;
-    width: 756px;
-    background-color: #404040;
-    border-color: #707070;
-    padding: 12px;
-}
-/*
-.splash{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: #404040;
-    z-index: 200;
-}
-.splash.display-none{
-    position: fixed;
-    opacity: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: #404040;
-    z-index: -10;
-    transition: all 0.5s;
-}
-/*
-@keyframes fadeIn{
-    to{
-        opacity: 1;
-    }
-}*/
-/*
-.fade-in{
-    opacity: 0;
-    animation: fadeIn 1s ease-in forwards;
-}*/
-#prueba{
-    color: #fff;
-}
-#BotonIncio{
-    float: right;
-}
-#sert
-{
-    text-align: center;
-}
-.videossss
-{
-    margin: 0;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center ;
-    color: #fff;
-}
-.titulos
-{
-    margin: 0;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: left ;
-    color: #fff;
-}
-.redes{
-    height: 30px;
-    width: 30px;
-    display: block;
-    margin: auto;
-    margin-top: 50px;
-}
-
-    </style>
     <title>UTTv</title>
 </head>
 <body id="fondo">
@@ -298,47 +67,65 @@
     <table class="default" style="text-align: center;">
       <tr>
           <td class="separation">
+          <a style="text-decoration:none;color:white;" href="vistameca1.php">
               Curso basico de arduino
               <iframe width="220" height="120" src="https://www.youtube.com/embed/eBVvD85Ml2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <p>Curso de 71 capitulos....</p>
+              </a>
             </td>
           <td class="separation">
+          <a style="text-decoration:none;color:white;" href="vistameca2.php">
               Curso basico de  PLC
               <iframe width="220" height="120" src="https://www.youtube.com/embed/euMtargFSGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <p>Curso de 24 capitulos....</p>
+              </a>
             </td>
-          
+            
           <td class="separation"> 
-              Curso basico de Electricidad y Magnetismo
+          <a style="text-decoration:none;color:white;" href="vistameca3.php">
+              Electricidad y Magnetismo
               <iframe width="220" height="120" src="https://www.youtube.com/embed/cFaf1_P2Y8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <p>Curso de 87 capitulos....</p>
+              </a>
             </td>
+              
             <td class="separation"> 
-                Curso basico de Electricidad y Magnetismo
-                <iframe width="220" height="120" src="https://www.youtube.com/embed/cFaf1_P2Y8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p>Curso de 87 capitulos....</p>
+            <a style="text-decoration:none;color:white;" href="vistameca4.php">
+                Curso basico de Calculo Diferencial
+                <iframe width="220" height="120" src="https://www.youtube.com/embed/vjx4i8DkgF4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Curso de 3 capitulos....</p>
+                </a>
               </td>
+
       </tr>
       <tr>
         <td>
+        <a style="text-decoration:none;color:white;" href="vistameca5.php">
           Curso de Sensores y Actuadores
           <iframe width="220" height="120" src="https://www.youtube.com/embed/uup3U0aqq6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <p>Curso de 1 capitulo....</p>
+          </a>
         </td>
         <td>
+        <a style="text-decoration:none;color:white;" href="vistameca6.php">
           Curso de Sistemas Mecatronicos
           <iframe width="220" height="120" src="https://www.youtube.com/embed/bxcg8eVYRz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <p>Curso de 6 capitulos....</p>
+          </a>
         </td>
         <td>
+        <a style="text-decoration:none;color:white;" href="vistameca7.php">
           Curso basico de Robotica
           <iframe width="220" height="120" src="https://www.youtube.com/embed/-wED6SbZnY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <p>Curso de 4 capitulos....</p>
+          </a>
         </td>
         <td>
-            Curso basico de Robotica
-            <iframe width="220" height="120" src="https://www.youtube.com/embed/-wED6SbZnY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p>Curso de 4 capitulos....</p>
+        <a style="text-decoration:none;color:white;" href="vistameca8.php">
+            Curso basico de Termodinamica
+            <iframe width="220" height="120" src="https://www.youtube.com/embed/QMV0DRycU8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Curso de 3 clases....</p>
+            </a>
           </td>
       </tr>
     </table>    

@@ -227,5 +227,24 @@
     margin-top: 50px;
 }
 
+.descript
+{
+    margin: 0;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: left ;
+    color: #fff;
+}
 
+.likess
+{
+    margin: 0;
+    top: 0;
+    left: 0;
+    display: flex;
+    text-align: right;
+    justify-content: right ;
+    color: #fff;
+}
     
