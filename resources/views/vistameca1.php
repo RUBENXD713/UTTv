@@ -78,11 +78,14 @@
       </tr>
 
     </table>    
+    
   </div>
-  <div class="descript">
-  <p style="text-align: righ;" class="videossss">Arduino desde cero en Español - Capítulo 1 - Introducción Arduino e inicio del Curso &nbsp;&nbsp;&nbsp;&nbsp;<img src="facebook.png" width="50" height="50" id="" class=""> &nbsp;&nbsp;&nbsp;&nbsp; <img src="facebook.png" width="50" height="50" id="" class=""></p>
+  <div class="">
+      
+  <p style="text-align: center;" class="videossss">Arduino desde cero en Español - Capítulo 1 - Introducción Arduino e inicio del Curso </p>
   
               </div>
+
           </div>
         </div>
        

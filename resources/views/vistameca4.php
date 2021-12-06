@@ -78,7 +78,7 @@
     </table>    
   </div>
   <div class="descript">
-  <p style="text-align: righ;" class="videossss">CURSO DE CALCULO DIFERENCIAL 1 - INTRODUCCIÓN (PRECALCULO): RELACIONES Y FUNCIONES</p>
+  <p style="text-align: center;" class="videossss">CURSO DE CALCULO DIFERENCIAL 1 - INTRODUCCIÓN (PRECALCULO): RELACIONES Y FUNCIONES</p>
               </div>
           </div>
         </div>

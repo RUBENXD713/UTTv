@@ -78,7 +78,7 @@
     </table>    
   </div>
   <div class="descript">
-  <p style="text-align: righ;" class="videossss">Introducción y partes PROGRAMACION del PLC || Hola mundo PLC ||PLC, TIA PORTAL CLASE #1</p>
+  <p style="text-align: center;" class="videossss">Introducción y partes PROGRAMACION del PLC || Hola mundo PLC ||PLC, TIA PORTAL CLASE #1</p>
               </div>
           </div>
         </div>

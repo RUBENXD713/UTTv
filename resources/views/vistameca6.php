@@ -78,7 +78,7 @@
     </table>    
   </div>
   <div class="descript">
-  <p style="text-align: righ;" class="videossss">Mecatrónica Desde CERO - Capítulo 1 - Introducción a la Mecatrónica y sistemas integrados.</p>
+  <p style="text-align: center;" class="videossss">Mecatrónica Desde CERO - Capítulo 1 - Introducción a la Mecatrónica y sistemas integrados.</p>
               </div>
           </div>
         </div>

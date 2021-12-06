@@ -78,7 +78,7 @@
     </table>    
   </div>
   <div class="descript">
-  <p style="text-align: righ;" class="videossss">Introducción Termodinámica: Clase 1</p>
+  <p style="text-align: center;" class="videossss">Introducción Termodinámica: Clase 1</p>
               </div>
           </div>
         </div>
