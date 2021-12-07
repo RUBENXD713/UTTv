@@ -76,7 +76,7 @@
 
     </table>    
   </div>
-  <div class="descript">
+  <div class="">
   <p style="text-align: center;" class="videossss">Curso de Robotica [Video Tutorial 1] - Que es un robot?</p>
               </div>
           </div>
