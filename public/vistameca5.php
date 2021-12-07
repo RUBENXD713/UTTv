@@ -77,7 +77,7 @@
 
     </table>    
   </div>
-  <div class="descript">
+  <div class="">
   <p style="text-align: center;" class="videossss">SENSORES Y ACTUADORES | MOTORMEX</p>
               </div>
           </div>

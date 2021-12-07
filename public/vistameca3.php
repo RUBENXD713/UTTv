@@ -77,7 +77,7 @@
 
     </table>    
   </div>
-  <div class="descript">
+  <div class="">
   <p style="text-align: center;" class="videossss">Introducción a la teoría Electromagnética Clásica y Modelos Atómicos.</p>
               </div>
           </div>
