@@ -32,7 +32,7 @@
             <br>
             <br>
             <br>
-            <a href="Registro.php">No tienes una cuenta</a>
+            <a href="/Registro">No tienes una cuenta</a>
         </form>
     </div>
     <script src="bootstrap-4.5.0-dist/js/jquery-3.5.1.min.js"></script>

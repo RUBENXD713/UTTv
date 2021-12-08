@@ -8,20 +8,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-    <!-- Hotjar Tracking Code for https://www.uttv.com.mx -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:2738141,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+
     <title>UTTv</title>
 </head>
 <body id="fondo">
+    
     <header id="base">
         <div class="letf_area">
           <div class="splash">
@@ -60,11 +51,10 @@
             <div class="row">
                 <div class="col-12">
                    <div class="wrapper">
-                       <a href="/Login">
+                       <a href="inicio_sesion.php">
                         <div class="button">
                             <div class="icon"><i class="fa fa-user-plus fa-2x"></i></div>
                             <span>Iniciar Sesion</span>
-                            {{ csrf_field() }}
                         </div>
                        </a>
                    </div>

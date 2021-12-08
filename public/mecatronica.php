@@ -6,13 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <title>UTTv</title>
 </head>
 <body id="fondo">
-    
     <header id="base">
         <div class="letf_area">
           <div class="container" id="menu">
@@ -20,7 +19,7 @@
                <center> 
                 <div class="col-12" id="cubo">
                 <a style="text-decoration:none" href="welcome.blade.php">
-                    <center><img src="Logo.png" id="logo" alt="logo"></center>
+                    <center><img src="imagenes/Logo.png" id="logo" alt="logo"></center>
                 </a>
                 </div>
             </center>

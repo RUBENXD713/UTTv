@@ -22,7 +22,7 @@
                 <h2 id="TituloRegistro">Bienvenid@ a la familia</h2>
                 <br>
                 <br>
-                <form method="POST" action="/Registro" id="FormularioRegis">
+                <form method="POST" action="{{ route('/Registro') }}" id="FormularioRegis">
                     {{csrf_field()}}
                     <!-- Correo electronico -->
                     <span><i class="fa fa-envelope-o fa-2x"></i></span>
@@ -40,7 +40,7 @@
                     <br><br>
                     <button id="Regisbuton">Crear cuenta</button>
                     <br><br>
-                    <a href="inicio_sesion.php">Ya tienes cuenta</a>
+                    <a href="/Login">Ya tienes cuenta</a>
                 </form>
             </div>
             </div>

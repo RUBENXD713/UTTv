@@ -17,6 +17,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::view('/', 'welcome')->name('welcome');
+Route::view('/Login', 'Login')->name('Login');
+Route::view('/Registro', 'Registro')->name('Registro');
+
+
 //metodos para Usuario
 
 Route::middleware('auth:sanctum')->delete('LogOut','usuarioController@LogOut');
