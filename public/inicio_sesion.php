@@ -19,12 +19,12 @@
             <!-- Nombre del usuario -->
             <!-- <label for="nombreusuario"><i class="fa fa-user fa-2x" id="icons"></i></label> -->
             <span><i class="fa fa-user fa-2x" id="icons"></i></span>
-            <input type="text" placeholder="Nombre del usuario">
+            <input type="text" placeholder="Nombre del usuario" name="" id="loginfomr">
             <!-- Contraseña -->
             <!-- <label for="contraseña"><i class="fa fa-lock fa-2x" id="icons"></i></label> -->
             <br>
             <span><i class="fa fa-lock fa-2x" id="icons"></i></span>
-            <input type="password" placeholder="Contraseña">
+            <input type="password" placeholder="Contraseña" name="password" id="loginfomr">
             <!-- Boton de enviar -->
             <br>
             <button id="iniboton">Iniciar sesion</button>

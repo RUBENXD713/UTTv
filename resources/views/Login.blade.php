@@ -15,16 +15,17 @@
         <img class="avatar" src="imagenes/Logo.png" alt="">
         <br>
         <h2>Bienvenid@ a la familia </h2>
-        <form method="POST" action="" id="loginfomr">
+        <form method="POST" action="/Login" id="loginfomr">
+            @csrf
             <!-- Nombre del usuario -->
             <!-- <label for="nombreusuario"><i class="fa fa-user fa-2x" id="icons"></i></label> -->
             <span><i class="fa fa-user fa-2x" id="icons"></i></span>
-            <input type="text" placeholder="Nombre del usuario">
+            <input type="text" name="email" id="" placeholder="Nombre del usuario">
             <!-- Contraseña -->
             <!-- <label for="contraseña"><i class="fa fa-lock fa-2x" id="icons"></i></label> -->
             <br>
             <span><i class="fa fa-lock fa-2x" id="icons"></i></span>
-            <input type="password" placeholder="Contraseña">
+            <input type="password" name="password" id="" placeholder="Contraseña">
             <!-- Boton de enviar -->
             <br>
             <button id="iniboton">Iniciar sesion</button>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="/css/estilos.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- Hotjar Tracking Code for https://www.uttv.com.mx -->
 <script>
@@ -25,7 +25,7 @@
     <header id="base">
         <div class="letf_area">
           <div class="splash">
-            <img src="imagenes/Logo.png" alt="" id="Logo1" class="fade-in">
+            <img src="/imagenes/Logo.png" alt="" id="Logo1" class="fade-in">
           </div>
           <div class="container" id="menu">
             <div class="row g-2">
@@ -33,6 +33,7 @@
                 <div class="col-12" id="cubo">
                     <center><img src="imagenes/Logo.png" id="logo" alt="logo"></center>
                 </div>
+                @csrf
             </center>
             </div>
             <div class="row g-2">
@@ -64,7 +65,6 @@
                         <div class="button">
                             <div class="icon"><i class="fa fa-user-plus fa-2x"></i></div>
                             <span>Iniciar Sesion</span>
-                            {{ csrf_field() }}
                         </div>
                        </a>
                    </div>
@@ -76,7 +76,7 @@
             <button class="btn" type="submit">
                 <i class="fa fa-search fa-2x" id="prueba"></i>
             </button>
-           
+            <pre>{{Auth::user()}}</pre>
             <p style="text-align: center;" class="videossss">Menu principal</p>
  
   

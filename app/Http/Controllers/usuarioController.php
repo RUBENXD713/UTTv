@@ -33,7 +33,8 @@ class usuarioController extends Controller
         else
         {
             $token=$user->createToken($request->email, ['user:user'])->plainTextToken;
-            return response()->json(["token"=>$token],201);
+            return view('welcome');
+            // return view('welcome', compact('name'));
         }
     }
 
@@ -69,8 +70,11 @@ class usuarioController extends Controller
         $user->password=Hash::make($request->password);
         $user->tipo='0';
 
+        // if($user->save()){
+        //     return response()->json($user);
+        // }
         if($user->save()){
-            return response()->json($user);
+            return view('Login');
         }
         return abort(402, "Error al Insertar");
     }

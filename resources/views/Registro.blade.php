@@ -22,21 +22,21 @@
                 <h2 id="TituloRegistro">Bienvenid@ a la familia</h2>
                 <br>
                 <br>
-                <form method="POST" action="{{ route('/Registro') }}" id="FormularioRegis">
-                    {{csrf_field()}}
+                <form method="POST" action="/Registro" id="FormularioRegis">
+                    @csrf
                     <!-- Correo electronico -->
                     <span><i class="fa fa-envelope-o fa-2x"></i></span>
-                    <input type="text" name="" id="" placeholder="Correo electronico">
+                    <input type="text" name="email" id="" placeholder="Correo electronico">
                     <br>
                     <br>
                     <!-- Nombre -->
                     <span><i class="fa fa-user fa-2x"></i></span>
-                    <input type="text" name="" id="" placeholder="Nombre de usuario">
+                    <input type="text" name="name" id="" placeholder="Nombre de usuario">
                     <br>
                     <br>
                     <!-- Contraseña -->
                     <span><i class="fa fa-lock fa-2x"></i></span>
-                    <input type="text" name="" id="" placeholder="Contraseña">
+                    <input type="text" name="password" id="" placeholder="Contraseña">
                     <br><br>
                     <button id="Regisbuton">Crear cuenta</button>
                     <br><br>
